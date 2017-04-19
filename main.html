@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<script src="jquery-3.2.0.js"></script>
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="stylesheet" type="text/css" href="simple-grid.css">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Pet the Pug</title>
+</head>
+<body>
+
+
+
+<div class="container-pug">
+	<div class="row">
+		<div class="col-12">
+			<h2 id="day"></h2>
+			<h2 id="clock"></h2>
+		</div>	
+	</div>
+	<div class="row">
+		<div class="col-3">
+			<h3>Diversão</h3>
+			<div class="structure-bar">
+				<div id="progress-fun" class="progress-bar"></div>
+			</div>
+
+			<h3>Amor</h3>
+			<div class="structure-bar">
+				<div id="progress-love" class="progress-bar"></div>
+			</div>
+
+			<h3>Banheiro</h3>
+			<div class="structure-bar">
+				<div id="progress-poop" class="progress-bar zero"></div>
+			</div>
+		</div>
+		<div class="col-5">
+			<img alt="pug" src="pug.png">
+		</div>
+		<div class="col-3">
+			<h3>Fome</h3>
+			<div class="structure-bar">
+				<div id="progress-food" class="progress-bar zero"></div>
+			</div>
+
+			<h3>Higiene</h3>
+			<div class="structure-bar">
+				<div id="progress-bath" class="progress-bar"></div>
+			</div>
+
+			<h3>Sono</h3>
+			<div class="structure-bar">
+				<div id="progress-sleep" class="progress-bar zero"></div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>

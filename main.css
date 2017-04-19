@@ -1,0 +1,33 @@
+
+
+h1 {
+	font-size: 40px;
+	color: red;
+}
+
+img {
+ width: 80%;
+ margin-left: 10%;
+}
+
+.container-pug {
+	margin: auto;
+	width: 80%;
+}
+
+.structure-bar {
+	width: 100%;
+	border: 1px solid grey;
+	background-color: #e0e0e0;
+}
+
+.progress-bar {
+	height: 20px;
+	background-color: green;
+	width: 100%;
+	max-width: 100%;
+}
+
+.progress-bar.zero {
+	width: 0;
+}
